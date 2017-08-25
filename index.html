@@ -11,52 +11,58 @@
   </head>
 
   <body>
+
       <div class="col-md-6">  <a> <font size="5">PLAYER 1</font> </a>
-        <div class="form-group">
-          <label for="rollresult">Roll Result</label>
-          <input id="rollresult" class="form-control" type="text" placeholder="Be honest aye !">
-            <button type="submit" id="submitplayerresult" name="button">SUBMIT</button>
-        </div>
-          <div class="col-md-6">
-            <button type="submit" id="submitplayerresult" name="button">ROLL</button>
-          </div>
+            <div class="form-group">
+              <label for="rollresult">Roll Result</label>
+              <input id="rollresult" class="form-control" type="text" placeholder="Be honest aye !">
+                <button type="submit" id="submitplayerresult" name="button">SUBMIT</button>
+            </div>
+              <div class="col-md-6">
+                <button type="submit" id="submitplayerresult" name="button">ROLL</button>
+              </div>
 
-          <div class="col-md-6">
-            <button type="submit" id="submitplayerresult" name="button">HOLD</button>
-          </div>
-
-
+              <div class="col-md-6">
+                <button type="submit" id="submitplayerresult" name="button">HOLD</button>
+              </div>
       </div>
 
 
       <div class="col-md-6">  <a> <font size="5">PLAYER 2 </font> </a>
+            <div class="form-group">
+              <label for="rollresult">Roll Result</label>
+              <input id="rollresult" class="form-control" type="text" placeholder="Be honest aye !">
+                <button type="submit" id="submitplayerresult" name="button">SUBMIT</button>
+           </div>
 
-        <div class="form-group">
-          <label for="rollresult">Roll Result</label>
-          <input id="rollresult" class="form-control" type="text" placeholder="Be honest aye !">
-            <button type="submit" id="submitplayerresult" name="button">SUBMIT</button>
-       </div>
+           <div class="col-md-6">
+             <button type="submit" id="submitplayerresult" name="button">ROLL</button>
+           </div>
 
-       <div class="col-md-6">
-         <button type="submit" id="submitplayerresult" name="button">ROLL</button>
-       </div>
-
-       <div class="col-md-6">
-         <button type="submit" id="submitplayerresult" name="button">HOLD</button>
-       </div>
-
-
+           <div class="col-md-6">
+             <button type="submit" id="submitplayerresult" name="button">HOLD</button>
+           </div>
       </div>
 
-        
+      <div class="form-group">
+               <label for="score1">Player 1 score</label>
+              <p id="score1" class="form-control"> </p>
+             </div>
 
-        </div>
+       <div class="form-group">
+              <label for="score2">Player 2 Score</label>
+               <p id="score2" class="form-control"> </p>
+      </div>
 
-          </div>
+      <center><h2><strong>GAMEPLAY</strong></h2></center>
+      <p> Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
+      <p><li>If the player rolls a 1, they score nothing and it becomes the next player's turn.
+</li></p>
+      <p><li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li></p>
+      <p><li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li></p>
+      <p><li><strong>*NOTE: THIS IS NOT A SIMULATION, RATHER, SERVES AS A DIGITAL COUNTER, A REAL DICE IS THEREFORE A NECESSITY</strong></li><p/>
 
 
-
-        </div>
 
   </body>
 </html>
