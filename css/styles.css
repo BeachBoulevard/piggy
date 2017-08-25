@@ -33,3 +33,17 @@ body {
   background-image: url("../img/nada.jpg");
 
 }
+
+p {
+ color: #D0D3D4;
+}
+li {
+  color: #D0D3D4;
+}
+h2 {
+  color: #D0D3D4;
+}
+
+label {
+  color: #D0D3D4;
+}
