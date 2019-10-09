@@ -18,7 +18,7 @@ site was deployed to beachboulevard.github.io/piggy
 ## Built With
 
 * atom
-* chrome developer tools
+
 
 ## Contributing
 
@@ -29,11 +29,5 @@ site was deployed to beachboulevard.github.io/piggy
 
 * Tayo Carl
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details .
 
-## Acknowledgments
-
-* Moringa School
-* Philip Weru
